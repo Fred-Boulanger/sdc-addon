@@ -50,6 +50,7 @@ const config: StorybookConfig = {
   stories: [
     '../components/**/*.component.yml',
     '../parent-namespace/components/**/*.component.yml',
+    '../ui_exemples/**/*.ui_examples.yml',
     '../stories/*.stories.js',
   ],
   addons: [

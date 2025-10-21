@@ -1,6 +1,9 @@
 import YamlStoriesPlugin, {
   yamlStoriesIndexer,
 } from './vite-plugin-storybook-yaml-stories.ts'
+import UIExemplesPlugin, {
+  uiExemplesIndexer,
+} from './vite-plugin-ui-exemples.ts'
 import { mergeConfig } from 'vite'
 import type { UserConfig } from 'vite'
 import type { Indexer } from 'storybook/internal/types'
@@ -53,6 +56,7 @@ export async function viteFinal(config: UserConfig, options: SDCAddonOptions) {
       }),
       ...(twigPlugin ? [twigPlugin] : []),
       YamlStoriesPlugin({ ...options, globalDefs, namespaces }),
+      UIExemplesPlugin({ namespaces }),
     ],
     optimizeDeps: {
       exclude: ['vite-plugin-twig-drupal', 'vite-plugin-twing-drupal'],
@@ -68,6 +72,7 @@ export const experimental_indexers: StorybookConfig['experimental_indexers'] =
   async (existingIndexers: Indexer[] | undefined) => [
     ...(existingIndexers || []),
     yamlStoriesIndexer,
+    uiExemplesIndexer,
   ]
 
 // Optional: Add the previewHead
