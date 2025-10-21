@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-sdc",
-  "version": "0.14.2",
+  "version": "0.15.3",
   "description": "Drupal Single Directory Components as stories",
   "keywords": [
     "SDC",
@@ -41,16 +41,16 @@
     "json-schema-faker": "^0.5.8",
     "jsonschema": "^1.5.0",
     "node-fetch": "^3.3.2",
-    "pino": "^9.6.0",
-    "pino-pretty": "^13.0.0",
+    "pino": "^10.1.0",
+    "pino-pretty": "^13.1.2",
     "vite-plugin-twing-drupal": "^1.0.13",
     "vite-plugin-twig-drupal": "^1.6.1",
     "yaml": "^2.7.1"
   },
   "devDependencies": {
-    "@storybook/addon-links": "^9.1.2",
-    "@storybook/addon-docs": "^9.1.2",
-    "@storybook/html-vite": "^9.1.2",
+    "@storybook/addon-links": "^9.1.13",
+    "@storybook/addon-docs": "^9.1.13",
+    "@storybook/html-vite": "^9.1.13",
     "@types/json-schema": "^7.0.15",
     "@types/node": "^24.2.1",
     "@types/node-fetch": "^2.6.12",
@@ -62,7 +62,7 @@
     "prompts": "^2.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "storybook": "^9.1.2",
+    "storybook": "^9.1.13",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2",
     "vite": "^6.2.3",

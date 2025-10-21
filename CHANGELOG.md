@@ -1,3 +1,46 @@
+# v0.15.3 (Sun Oct 19 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Upgrade logger ([@iberdinsky-skilld](https://github.com/iberdinsky-skilld))
+- Dependencies update ([@iberdinsky-skilld](https://github.com/iberdinsky-skilld))
+
+#### Authors: 1
+
+- [@iberdinsky-skilld](https://github.com/iberdinsky-skilld)
+
+---
+
+# v0.15.2 (Sun Oct 19 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Fix atomic import ([@iberdinsky-skilld](https://github.com/iberdinsky-skilld))
+
+#### Authors: 1
+
+- [@iberdinsky-skilld](https://github.com/iberdinsky-skilld)
+
+---
+
+# v0.14.3 (Tue Oct 14 2025)
+
+#### 🐛 Bug Fix
+
+- Add library_wrapper ui_pattern story feature [#88](https://github.com/iberdinsky-skilld/sdc-addon/pull/88) ([@Fred-Boulanger](https://github.com/Fred-Boulanger) [@iberdinsky-skilld](https://github.com/iberdinsky-skilld))
+
+#### ⚠️ Pushed to `main`
+
+- Bump (iberdinsky@skilld.cloud)
+
+#### Authors: 3
+
+- [@iberdinsky-skilld](https://github.com/iberdinsky-skilld)
+- fredb ([@Fred-Boulanger](https://github.com/Fred-Boulanger))
+- iberdinsky-skilld (iberdinsky@skilld.cloud)
+
+---
+
 # v0.14.2 (Fri Oct 10 2025)
 
 #### ⚠️ Pushed to `main`
