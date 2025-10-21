@@ -43,13 +43,13 @@
     "node-fetch": "^3.3.2",
     "pino": "^9.6.0",
     "pino-pretty": "^13.0.0",
-    "vite-plugin-twing-drupal": "^1.0.13",
     "vite-plugin-twig-drupal": "^1.6.1",
+    "vite-plugin-twing-drupal": "^1.0.13",
     "yaml": "^2.7.1"
   },
   "devDependencies": {
-    "@storybook/addon-links": "^9.1.2",
     "@storybook/addon-docs": "^9.1.2",
+    "@storybook/addon-links": "^9.1.2",
     "@storybook/html-vite": "^9.1.2",
     "@types/json-schema": "^7.0.15",
     "@types/node": "^24.2.1",

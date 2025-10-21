@@ -9,7 +9,7 @@ export default defineConfig(async (options) => {
     // treeshake: true,
     // sourcemap: true,
     // clean: options.watch ? false : true,
-    entry: ['src/preset.ts', 'src/uiExemplesGenerator.ts', 'src/vite-plugin-ui-exemples.ts'],
+    entry: ['src/preset.ts'],
     format: ['esm'],
     target: 'node22',
     platform: 'node',
@@ -23,7 +23,7 @@ export default defineConfig(async (options) => {
 
   configs.push({
     ...commonConfig,
-    entry: ['src/preset.ts', 'src/uiExemplesGenerator.ts', 'src/vite-plugin-ui-exemples.ts'],
+    entry: ['src/preset.ts'],
     format: ['esm'],
     target: NODE_TARGET,
     platform: 'node',
